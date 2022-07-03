@@ -1,38 +1,46 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.App{
+  background-image: url(../public/fondo2.jpg);
+  background-size: cover;
   min-height: 100vh;
+}
+.App-logo {
+  width: 160px;
+}
+.App-header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 20px;
 }
-
-.App-link {
-  color: #61dafb;
+.App-menu {
+  height: 800px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ul li a {
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  padding-left: 50px;
+}
+.form-control {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+}
+.App-header__search{
+  display: flex;
+  flex-direction: row;
+}
+form{
+  margin-right: 8px;
+}
+main {
+  padding: 40px;
+  font-family: 'Poppins', sans-serif;
 }
